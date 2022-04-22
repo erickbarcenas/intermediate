@@ -1,0 +1,15 @@
+@import url('./reset_styles.css');
+@import url('./variables.css');
+/* ================================================ */
+
+/* ================================================ */
+
+body {
+    background-color: var(-light-color);
+    font-family: var(--font-fam);
+}
+
+.container {
+    max-width: 900px;
+    margin: calc(var(--space-unit) * 5) auto 0;
+}
