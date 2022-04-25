@@ -20,11 +20,15 @@ body {
     column-gap: calc(var(--space-unit) * 4);
 }
 
-/*
-.home-layout .home-layout-header {
 
+.home-layout .home-layout-header {
+    padding-top: 3rem;
+    position: sticky;
+    top: 0;
+    /*background-color: #cae8ca;*/
+    height: 16rem;
 }
-*/
+
 .home-layout .home-layout-main {
     height: 100%;
 }
@@ -56,4 +60,32 @@ body {
     position: absolute;
     left: calc(50% - 37px);
     top: -37px;
+}
+
+
+.card {
+    border-radius: 1rem;
+    box-shadow: 2px 4px 8px lightgrey;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card h1 {
+    font-size: 1rem;
+}
+
+.btn-add {
+    position: fixed;
+    background: #007eff;
+    color: white;
+    font-weight: bolder;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 10000;
+    cursor: pointer;
 }
