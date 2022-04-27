@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./static/imgs/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/add_new_issue.css">
+  <title>Home</title>
+</head>
+
+<body class="container home-layout">
+    <header>
+
+    </header>
+    <main>
+
+        <div class="container">
+            <div class="navbar">
+                <img class="back__arrow" src="./static/imgs/up-arrow.svg" alt="up">
+                <a class="go__back" href="index.html"> Go back</a>
+                
+            </div>
+            <div class="form">
+                <div class="form__header">
+                    <div class="navbar_container_icon">
+                        <img class="navbar_icon" src="./static/imgs/writing.svg" alt="Avatar"/>
+                    </div>
+                    <h1>
+                        Editing 'Add a dark theme option'
+                    </h1>
+                </div>
+                <div class="form__body">
+                    <!-- Feedback Title -->
+                    <div class="form__topic">
+                        <h1> Feedback Title </h1>
+                        <p> Add a short, descriptive headline</p>
+                        <!---->
+                        <label for="category" class="text-sm">
+                            <select name="category" id="category">
+                                <option value="0">Please add a dark theme option</option>
+                                <option value="1"></option>
+                                <option value="2">M</option>
+                            </select>
+                        </label>
+                    </div>
+                    <!-- Category -->
+                    <div class="form__topic">
+                        <h1>Category</h1>
+                        <p> Choose a category for your feedback </p>
+                        <!---->
+                        <label for="category" class="text-sm">
+                            <select name="category" id="category">
+                                <option value="0">Feature</option>
+                                <option value="1"> </option>
+                                <option value="2"> </option>
+                            </select>
+                        </label>
+                    </div>
+                    <!-- Update Status -->
+                    <div class="form__topic">
+                        <h1>Update Status</h1>
+                        <p>Change feedback state</p>
+                        <!---->
+                        <label for="category" class="text-sm">
+                            <select name="category" id="category">
+                                <option value="0">Planed</option>
+                                <option value="1"></option>
+                                <option value="2"></option>
+                            </select>
+                        </label>
+                    </div>
+                    <!-- Feedback Detail -->
+                    <div class="form__topic">
+                        <h1> Feedback Detail  </h1>
+                        <p>Include any specific comments on what should be improved, added, etc.</p>
+                        <!---->
+                        <div class="form__notification">
+                            It would help people with light sensitivities and who prefer dark mode.
+                        </div> 
+                    </div>
+                    
+                </div>
+                <div class="form__footer">
+                    <div class="col">
+                        <a href="add_new_issue.html" class="button-delete">Delete</a>
+                        
+                    </div>
+                    <div class="col">
+                        <a href="add_new_issue.html" class="button-cancel">Cancel</a>
+                        <a href="add_new_issue.html" class="button-primary">Add Feedback</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+@import url('./reset_styles.css');
+@import url('./variables.css');
+/* ================================================ */
+
+/* ================================================ */
+
+body {
+    background-color: var(--light-color);
+    font-family: var(--font-fam);
+}
+
+.container {
+    margin: 0% auto;
+    width: 20rem;
+    height: auto;
+    position: relative;
+}
+
+
+.navbar {
+    padding: 3rem 0;
+    display: flex;
+    position: relative;
+}
+
+.navbar .back__arrow {
+    transform: rotate(-90deg);
+    margin: 0 1rem;
+}
+
+.navbar  .go__back {
+    font-size: 0.8rem !important;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+
+
+.navbar .navbar_icon {
+    width: 3rem;
+}
+
+
+.form {
+    background-color: var(--white);
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    position: relative;
+    padding: 1rem 1.5rem;
+}
+
+.form .form__header .navbar_container_icon .navbar_icon {
+    position: absolute;
+    z-index: 100;
+    top: -4.5rem;
+    left: 0;
+    width: 2.5rem;
+    background-color: purple;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.form .form__header {
+    position: relative;
+    margin: 2rem 0;
+}
+
+
+
+.form .form__header h1 {
+    font-size: 1rem;
+}
+
+
+.form .form__body {
+    position: relative;
+}
+
+.form .form__topic {
+    margin-top: 0.5rem;
+}
+
+
+.form .form__topic h1 {
+    font-size: 0.9rem;
+}
+
+.form .form__topic p {
+    font-size: 0.8rem;
+}
+
+.form .form__topic h1, p{
+    color: var(--dark-color);
+}
+.form .form__footer {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+
+.form .form__footer .col {
+    
+}
+.form .form__footer .col:first-child {
+    align-items: left;
+    width: 30%;
+}
+
+.form .form__footer .col:last-child {
+    justify-content: end;
+    display: flex;
+    width: 70%;
+}
+
+.button-primary,
+.button-delete,
+.button-cancel {
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: calc(var(--space-unit) * .5) var(--space-unit);
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    font-size: var(--text-sm);
+}
+
+.button-primary {
+    background-color: var(--doing-color);
+  }
+  
+.button-delete {
+    background-color: var(--delete-color);
+}
+
+.button-cancel {
+    background-color: var(--dark-color);
+    margin: 0 0.5rem;
+}
+
+
+.button-primary:hover {
+    background-color: var(--doing-hover-color);
+}
+.button-delete:hover {
+    background-color: var(--delete-hover-color);
+    
+}
+
+.button-cancel:hover {
+    background-color: var(--dark-hover-color);
+}
+
+
+select {
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--dark-gradient-color);
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.form__notification {
+    background-color: var(--dark-gradient-color);
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
