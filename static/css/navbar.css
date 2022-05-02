@@ -1,0 +1,27 @@
+.navbar {
+    padding: 3rem 0;
+    display: flex;
+    position: relative;
+}
+
+.roadmap__navbar{
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.back__arrow {
+    transform: rotate(-90deg);
+    margin: 0 1rem;
+}
+
+.go__back {
+    font-size: 0.8rem !important;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+
+
+.navbar_icon {
+    width: 3rem;
+}

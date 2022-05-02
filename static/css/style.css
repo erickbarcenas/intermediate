@@ -7,6 +7,7 @@
 body {
     background-color: var(--light-color);
     font-family: var(--font-fam);
+    overflow-y: hidden;
 }
 
 .container {
@@ -22,7 +23,7 @@ body {
 
 
 .home-layout .home-layout-header {
-    padding-top: 3rem;
+    /*padding-top: 3rem;*/
     position: sticky;
     top: 0;
     /*background-color: #cae8ca;*/
@@ -31,6 +32,7 @@ body {
 
 .home-layout .home-layout-main {
     height: 100%;
+    overflow-y: hidden;
 }
 
 #profile-box {
@@ -170,6 +172,8 @@ body {
 
 .issues-list-container {
   margin-top: calc(var(--space-unit) * 3);
+  height: calc(100% - 145px);
+  overflow-y: auto;
 }
 
 .issue .comments {
@@ -218,4 +222,22 @@ body {
     display: flex;
     z-index: 10000;
     cursor: pointer;
+}
+
+
+/*** SCROLL BAR ***/
+.issues-list-container::-webkit-scrollbar {
+  width: 3px;
+}
+
+.issues-list-container::-webkit-scrollbar-track {
+  background-color: #f1f1f17c;
+}
+
+.issues-list-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 200, 200, 0.5);
+}
+
+.issues-list-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.47);
 }

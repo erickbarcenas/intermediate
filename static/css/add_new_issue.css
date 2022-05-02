@@ -1,5 +1,8 @@
 @import url('./reset_styles.css');
 @import url('./variables.css');
+
+@import './navbar.css';
+
 /* ================================================ */
 
 /* ================================================ */
@@ -17,28 +20,7 @@ body {
 }
 
 
-.navbar {
-    padding: 3rem 0;
-    display: flex;
-    position: relative;
-}
 
-.navbar .back__arrow {
-    transform: rotate(-90deg);
-    margin: 0 1rem;
-}
-
-.navbar  .go__back {
-    font-size: 0.8rem !important;
-    text-decoration: none;
-    color: var(--dark-color);
-}
-
-
-
-.navbar .navbar_icon {
-    width: 3rem;
-}
 
 
 .form {
